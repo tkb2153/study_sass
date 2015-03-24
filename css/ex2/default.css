@@ -1,0 +1,46 @@
+.box {
+  height: 500px;
+  width: 500px;
+  background: black;
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    background: yellow;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .box {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    background: yellow;
+  }
+  .box a {
+    color: red;
+  }
+
+  .one {
+    background: yellow;
+  }
+  .one a {
+    color: red;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box {
+    background: red;
+  }
+  .box a {
+    color: yellow;
+  }
+
+  .one {
+    background: red;
+  }
+  .one a {
+    color: yellow;
+  }
+}
